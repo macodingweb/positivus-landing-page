@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/SpaceGrotesk-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/SpaceGrotesk-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/SpaceGrotesk-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/SpaceGrotesk-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/SpaceGrotesk-Bold.ttf);
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
