@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 export default function HomeLayout({ children } : { children: ReactNode }) {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <Navbar />
       { children }
     </main>

@@ -21,7 +21,7 @@ export default function Navbar() {
       </button>
 
       {/* Right Side Of The Navbar */}
-      <div className={`right-side flex items-center gap-6 max-lg:absolute max-lg:z-[50] max-lg:flex-col-reverse transition-all ${ exchange ? 'max-lg:top-[100%]' : 'max-lg:top-[-525%]' } max-lg:right-0 max-lg:w-full max-lg:bg-slate-900 max-lg:py-5 max-lg:rounded-[12px] max-lg:shadow-md`}>
+      <div className={`right-side flex items-center gap-6 max-lg:absolute max-lg:z-[50] max-lg:flex-col-reverse transition-all top-[100%] ${ exchange ? 'max-lg:right-[0]' : 'max-lg:right-[-100%]' } max-lg:right-0 max-lg:w-full max-lg:bg-slate-900 max-lg:py-5 max-lg:rounded-[12px] max-lg:shadow-md`}>
         <ul className="main-list flex items-center gap-2 max-lg:flex-col">
           { NavLinks.map((ele, index) => (
             <li className="list-item py-3 cursor-pointer px-5 border-solid border-0 border-transparent border-b-[3px] transition-all hover:border-b-slate-900 max-lg:text-white max-lg:hover:border-b-white" key={index}>
