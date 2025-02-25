@@ -3,6 +3,11 @@ import Services from "@/components/Services";
 import CaseStudies from "@/components/CaseStudies";
 import { sponsers } from "@/constants/home";
 import Image from "next/image";
+import OnWorkingProcess from "@/components/OnWorkingProcess";
+import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
+import ContactUs from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +23,11 @@ export default function Home() {
       </div>
       <Services />
       <CaseStudies />
+      <OnWorkingProcess />
+      <Team />
+      <Testimonials />
+      <ContactUs />
+      <Footer />
     </>
   )
 }

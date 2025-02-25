@@ -14,6 +14,9 @@ export default {
       },
       boxShadow: {
         card: "0 6px 0 #000",
+      },
+      borderColor: {
+        custom: "#b9ff66 transparent transparent #b9ff66",
       }
     },
   },
